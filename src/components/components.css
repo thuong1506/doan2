@@ -1,0 +1,288 @@
+/* navbar style */
+.menu {
+  position: relative;
+  box-shadow: 5px 0px 10px rgb(220, 218, 218);
+  width: 255px;
+  height: 100vh;
+}
+
+.navbar {
+  align-items: center;
+}
+
+.logo img {
+  width: 79.774px;
+  height: 63.98px;
+  flex-shrink: 0;
+}
+
+.logo {
+  padding: 32px 70px 40px 60px;
+  text-align: center;
+}
+
+.menu-item {
+  border-radius: 8px;
+  padding: 20px 0px 45px 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-item-sub {
+  text-decoration: none;
+  color: var(--gray-gray-300, #7e7d88);
+  font-family: monospace;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.27px;
+  display: block;
+
+  border-radius: 8px;
+  padding: 10px 0px;
+  margin: 0px 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sub-menu-2 {
+  width: 200px;
+}
+
+.sub-menu-2 a {
+  width: 200px;
+  text-decoration: none;
+  color: var(--gray-gray-300, #7e7d88);
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.27px;
+  display: block;
+  border-radius: 5px;
+}
+
+.menu-item-sub:hover {
+  color: var(--orange-orange-400, #ff9138) !important;
+  background: var(--orange-orange-50, #fff2e7) !important;
+}
+
+.menu .navigation a {
+  text-decoration: none;
+  color: var(--gray-gray-300, #7e7d88);
+  font-family: monospace;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.27px;
+  display: block;
+  border-radius: 5px;
+}
+
+/* Thay đổi màu của menu item khi được chọn */
+.navigation .ant-menu-item.selected {
+  background-color: var(--orange-orange-400, #ff9138) !important;
+}
+
+/* Thay đổi màu chữ của menu item khi được chọn */
+.navigation .ant-menu-item.selected a {
+  color: white !important;
+}
+
+/* Thay đổi màu của menu.submenu khi một trong ba menu.item con được chọn */
+.menu-item-sub.selected {
+  background-color: var(--orange-orange-400, #ff9138) !important;
+  color: white !important;
+}
+
+.menu-item:hover {
+  color: var(--orange-orange-400, #ff9138) !important;
+  background: var(--orange-orange-50, #fff2e7) !important;
+}
+
+.menu-item a {
+  transition: padding-left 0.2s ease-in-out; /* Thêm hiệu ứng transition cho padding-left */
+}
+
+.menu-item a:hover {
+  padding-left: 3px !important; /* Điều chỉnh giá trị padding-left tùy theo mong muốn */
+}
+
+.breadcrumb-item-1 {
+  color: var(--gray-blue-gray-4-place-holder, #7e7d88);
+
+  /* 20/20 Bold */
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+
+.breadcrumb-item-1::after {
+  content: ">";
+  margin-left: 15px;
+}
+
+.breadcrumb-item {
+  color: var(--orange-orange-500, #ff7506);
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+
+.menu-footer {
+  position: absolute;
+  transform: translateY(240%);
+  width: 80%;
+  margin-left: 25px;
+  border-radius: 8px;
+  color: var(--orange-orange-500, #ff7506);
+  background: var(--orange-orange-50, #fff2e7);
+}
+
+.menu-footer a {
+  padding: 0 15px;
+  margin-top: 8px;
+  color: var(--orange-orange-500, #ff7506) !important;
+}
+
+.header {
+  padding-right: 60px;
+  height: 80px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.notification-avatar {
+  display: flex;
+}
+
+.notification-icon .i {
+  width: 20px;
+  height: 20px;
+  color: #ff9138;
+}
+
+.noti {
+  margin-top: 5px;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: var(--orange-orange-50, #fff2e7);
+}
+
+.message {
+  width: 350px;
+}
+
+.message-2 {
+  padding: 16px 16px;
+}
+
+.title-message {
+  border-radius: 6px 6px 0px 0px !important;
+  padding: 16px 16px;
+  background-color: #ff7506;
+}
+
+.title-message span {
+  color: white;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.info {
+  padding-left: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.avt {
+  width: 50px;
+  height: 50px;
+}
+
+.welcome-text {
+  color: var(--gray-gray-300, #7e7d88);
+
+  /* 12/12 Reg */
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.user-name {
+  color: var(--gray-gray-400-text, #535261);
+
+  /* 16/16 Bold */
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.breadcrumb-item-nav {
+  text-decoration: none;
+}
+
+.breadcrumb-item-1:hover a {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.ant-popover-inner {
+  padding: 0px !important;
+}
+
+.notifi {
+  border-bottom: 0.1px #d4d4d7 solid;
+}
+
+.noti-1 {
+  color: var(--orange-orange-600, #bf5805);
+
+  /* 16/16 Bold */
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.noti-2 {
+  color: var(--gray-gray-400-text, #535261);
+
+  /* 16/16 Reg */
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.header {
+  position: relative; /* Đặt vị trí tương đối */
+  z-index: 1; /* Đặt chỉ số z để nằm phía dưới */
+}
